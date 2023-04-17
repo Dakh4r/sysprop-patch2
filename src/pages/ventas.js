@@ -470,7 +470,7 @@ function Ventas() {
                       <CardHeader
                         style={{ backgroundColor: "#4e73df", color: "white" }}
                       >
-                        Detalle
+                        Detalles de la venta
                       </CardHeader>
                       <CardBody>
                         <Row>

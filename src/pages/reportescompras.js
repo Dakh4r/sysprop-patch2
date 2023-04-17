@@ -176,7 +176,7 @@ function Reportescompras() {
                         <td>{modalData ? modalData.fecha : ""}</td>
                       </tr>
                       <tr>
-                        <td>Nombre del Cliente:</td>
+                        <td>Nombre del Proveedor:</td>
                         <td>{modalData ? modalData.nombreProveedor : ""}</td>
                       </tr>
                       <tr>
