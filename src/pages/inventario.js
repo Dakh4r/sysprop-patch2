@@ -221,7 +221,7 @@ function Inventario() {
                 value={nombre}
                 onChange={(event) => {
                   const value = event.target.value;
-                  const regex = /^[a-zñA-ZÑ\s]*$/;
+                  const regex = /^[0-9a-zñA-ZÑ\s]*$/;
                   event.preventDefault()
                   if (regex.test(value) && value.length <= 64) {
                     setNombre(value);
